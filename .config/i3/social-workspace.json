@@ -1,0 +1,48 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 990,
+       "width": 1850,
+       "x": 35,
+       "y": 55
+    },
+    "name": "HexChat: Pixiys @ freenode",
+    "percent": 0.4,
+    "swallows": [
+       {
+        "class": "^Hexchat$",
+        "instance": "^hexchat$",
+       // "title": "^HexChat\\:\\ Pixiys\\ \\@\\ freenode$",
+       // "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 990,
+       "width": 910,
+       "x": 975,
+       "y": 55
+    },
+    "name": "#general",
+    "percent": 0.6,
+    "swallows": [
+       {
+        "class": "^Chromium\\-browser$",
+        "instance": "^crx_hbngliaidieccmcklbonpbmlbekmgglf$",
+       // "title": "^\\#general$",
+       // "transient_for": "^$",
+        "window_role": "^pop\\-up$"
+       }
+    ],
+    "type": "con"
+}
+

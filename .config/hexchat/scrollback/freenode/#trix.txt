@@ -1,0 +1,14 @@
+T 1526853071 19*	19Now talking on #trix
+T 1526853071 22*	card.freenode.net sets mode +n #trix
+T 1526853071 22*	card.freenode.net sets mode +s #trix
+T 1526853071 22*	26services. removes channel operator status from26 Pixiys
+T 1526853071 22*	*** Notice -- TS for #trix changed from 1526853071 to 1294418944
+T 1526853071 22*	services. sets mode +c #trix
+T 1526853071 22*	services. sets mode +t #trix
+T 1526853071 22*	services. sets mode -s #trix
+T 1526853071 19*	19ChanServ (ChanServ@services.) has joined #trix
+T 1526853071 22*	26services. gives channel operator status to26 ChanServ
+T 1526853088 Bad arguments for user command.
+T 1526853114 22*	Disconnected ().
+T 1526853134 Python interface unloaded
+T 1526853134 FiSHLiM plugin unloaded

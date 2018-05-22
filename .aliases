@@ -1,0 +1,65 @@
+# Aliases
+#========
+
+# I'm a bad typist
+
+alias sl=ls
+alias mdkir=mkdir
+alias soruce=source
+alias souce=source
+
+# Short things are better
+
+alias v=vagrant
+alias g=git
+alias d=docker
+alias cls=clear
+alias sagi='sudo apt-get install'
+alias ls='ls --color'
+alias ll='ls --color -l'
+alias l='ls --color -lA'
+alias temp='/opt/vc/bin/vcgencmd measure_temp'
+
+# Short things are better (git)
+alias gs='git show --pretty=oneline'
+alias gpom='git push origin master'
+alias gpod='git push origin development'
+alias grom='git reset --hard origin/master'
+alias gp='git pull'
+
+# Env Overload
+alias utcdate='TZ=utc date'
+
+# Just fun
+alias fucking=sudo
+alias inspire='fortune | cowsay | lolcat'
+alias cinspire='clear; fortune | cowsay | lolcat'
+
+# Stored Regular Expressions
+
+alias reg_mac='echo [0-9a-f]{2}:[0-9a-f]{2}:[0-9a-f]{2}:[0-9a-f]{2}:[0-9a-f]{2}:[0-9a-f]{2}'
+alias grep_mac='grep -E `reg_mac`'
+alias reg_email='echo "[^[:space:]]+@[^[:space:]]+"'
+alias reg_ip='echo "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"'
+
+# Reference
+alias alphabet='echo a b c d e f g h i j k l m n o p q r s t u v w x y z'
+alias unicode='echo ✓ ™  ♪ ♫ ☃ ° Ɵ ∫'
+alias numalphabet='alphabet; echo 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6'
+alias ascii='man ascii | grep -m 1 -A 63 --color=never Oct'
+
+# Validate things
+alias yamlcheck='python -c "import sys, yaml as y; y.safe_load(open(sys.argv[1]))"'
+alias jsoncheck='jq "." >/dev/null <'
+alias ppv='puppet parser validate'
+
+# Misc
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
+alias bsc='git add .; git commit -a -m "Bull Shit Commit"; git push origin master'
+alias tyc='git add .; git commit -a -m "Typo"; git push origin master'
+
+
+
+# i3
+alias main-workspace='~/.config/i3/main-workspace.sh && exit'
+

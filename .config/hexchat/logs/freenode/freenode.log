@@ -1,0 +1,2409 @@
+**** BEGIN LOGGING AT Sun May 20 17:24:54 2018
+
+May 20 17:24:54 *	*** Looking up your hostname...
+May 20 17:24:54 *	*** Checking Ident
+May 20 17:24:54 *	*** Found your hostname
+May 20 17:25:03 *	*** No Ident response
+May 20 17:25:03 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 20 17:25:03 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 20 17:25:04 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Sun May 20 17:25:04 2018
+
+**** BEGIN LOGGING AT Sun May 20 17:25:04 2018
+
+May 20 17:25:04 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 17:25:04 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 20 17:25:04 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 20 17:25:04 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 17:25:04 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 17:25:04 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 20 17:25:04 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 20 17:25:04 *	There are 123 users and 86242 invisible on 34 servers
+May 20 17:25:04 *	31 :IRC Operators online
+May 20 17:25:04 *	24 :unknown connection(s)
+May 20 17:25:04 *	52730 :channels formed
+May 20 17:25:04 *	I have 794 clients and 1 servers
+May 20 17:25:04 *	794 794 :Current local users 794, max 794
+May 20 17:25:04 *	86365 87240 :Current global users 86365, max 87240
+May 20 17:25:04 *	Highest connection count: 795 (794 clients) (2203 connections received)
+May 20 17:25:04 *	- card.freenode.net Message of the Day - 
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 20 17:25:04 *	- Team Cymru (http://www.team-cymru.org).
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 20 17:25:04 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 20 17:25:04 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 20 17:25:04 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 20 17:25:04 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 20 17:25:04 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- Welcome to freenode - supporting the free and open source
+May 20 17:25:04 *	- software communities since 1998.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- By connecting to freenode you indicate that you have read and
+May 20 17:25:04 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 17:25:04 *	- please notify a volunteer staff member via private message, or send us an
+May 20 17:25:04 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 17:25:04 *	- situation within a reasonable period of time, and we may request further
+May 20 17:25:04 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 17:25:04 *	- Group Contacts representing an on-topic group.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- freenode runs an open proxy scanner.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- If you are looking for assistance, you will be able to find a list of
+May 20 17:25:04 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 17:25:04 *	- message any of us at any time. Please note that freenode predominantly
+May 20 17:25:04 *	- provides assistance via private message, and while we have a network
+May 20 17:25:04 *	- channel the primary venue for support requests is via private message to
+May 20 17:25:04 *	- a member of the volunteer staff team.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 17:25:04 *	- the project, or the communities that we host. The majority of such notices
+May 20 17:25:04 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 17:25:04 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 17:25:04 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 17:25:04 *	- global notices.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 17:25:04 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- freenode organises an annual conference, and we would like to extend our
+May 20 17:25:04 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 17:25:04 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 17:25:04 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 17:25:04 *	- network going for close to two decades.
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 17:25:04 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 17:25:04 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 17:25:04 *	- sponsor@freenode.live
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	- Thank you for using freenode!
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	-  
+May 20 17:25:04 *	End of /MOTD command.
+May 20 17:25:04 *	Pixiys sets mode +Z on Pixiys
+May 20 17:25:04 *	Pixiys sets mode +i on Pixiys
+**** ENDING LOGGING AT Sun May 20 17:26:24 2018
+
+**** BEGIN LOGGING AT Sun May 20 17:26:24 2018
+
+May 20 17:33:39 Python interface unloaded
+May 20 17:33:39 Perl interface unloaded
+May 20 17:33:39 Checksum plugin unloaded
+May 20 17:33:39 FiSHLiM plugin unloaded
+May 20 17:33:39 Sysinfo plugin unloaded
+**** ENDING LOGGING AT Sun May 20 17:33:39 2018
+
+**** BEGIN LOGGING AT Sun May 20 17:35:53 2018
+
+May 20 17:35:53 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 17:35:53 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 20 17:35:53 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 20 17:35:53 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 17:35:53 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 17:35:53 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 20 17:35:53 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 20 17:35:53 *	There are 123 users and 86150 invisible on 34 servers
+May 20 17:35:53 *	31 :IRC Operators online
+May 20 17:35:53 *	16 :unknown connection(s)
+May 20 17:35:53 *	52720 :channels formed
+May 20 17:35:53 *	I have 787 clients and 1 servers
+May 20 17:35:53 *	787 799 :Current local users 787, max 799
+May 20 17:35:53 *	86273 87240 :Current global users 86273, max 87240
+May 20 17:35:53 *	Highest connection count: 800 (799 clients) (2305 connections received)
+May 20 17:35:53 *	- card.freenode.net Message of the Day - 
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 20 17:35:53 *	- Team Cymru (http://www.team-cymru.org).
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 20 17:35:53 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 20 17:35:53 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 20 17:35:53 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 20 17:35:53 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 20 17:35:53 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- Welcome to freenode - supporting the free and open source
+May 20 17:35:53 *	- software communities since 1998.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- By connecting to freenode you indicate that you have read and
+May 20 17:35:53 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 17:35:53 *	- please notify a volunteer staff member via private message, or send us an
+May 20 17:35:53 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 17:35:53 *	- situation within a reasonable period of time, and we may request further
+May 20 17:35:53 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 17:35:53 *	- Group Contacts representing an on-topic group.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- freenode runs an open proxy scanner.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- If you are looking for assistance, you will be able to find a list of
+May 20 17:35:53 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 17:35:53 *	- message any of us at any time. Please note that freenode predominantly
+May 20 17:35:53 *	- provides assistance via private message, and while we have a network
+May 20 17:35:53 *	- channel the primary venue for support requests is via private message to
+May 20 17:35:53 *	- a member of the volunteer staff team.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 17:35:53 *	- the project, or the communities that we host. The majority of such notices
+May 20 17:35:53 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 17:35:53 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 17:35:53 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 17:35:53 *	- global notices.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 17:35:53 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- freenode organises an annual conference, and we would like to extend our
+May 20 17:35:53 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 17:35:53 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 17:35:53 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 17:35:53 *	- network going for close to two decades.
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 17:35:53 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 17:35:53 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 17:35:53 *	- sponsor@freenode.live
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	- Thank you for using freenode!
+May 20 17:35:53 *	-  
+May 20 17:35:53 *	-  
+May 20 17:35:54 *	End of /MOTD command.
+May 20 17:35:54 *	Pixiys sets mode +Z Pixiys
+May 20 17:35:54 *	Pixiys sets mode +i Pixiys
+May 20 17:39:37 Python interface unloaded
+May 20 17:39:37 Perl interface unloaded
+May 20 17:39:37 Checksum plugin unloaded
+May 20 17:39:37 FiSHLiM plugin unloaded
+May 20 17:39:37 Sysinfo plugin unloaded
+**** ENDING LOGGING AT Sun May 20 17:39:37 2018
+
+**** BEGIN LOGGING AT Sun May 20 17:50:53 2018
+
+May 20 17:50:53 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 17:50:53 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 20 17:50:53 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 20 17:50:53 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 17:50:53 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 17:50:53 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 20 17:50:53 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 20 17:50:53 *	There are 122 users and 86046 invisible on 34 servers
+May 20 17:50:53 *	31 :IRC Operators online
+May 20 17:50:53 *	22 :unknown connection(s)
+May 20 17:50:53 *	52694 :channels formed
+May 20 17:50:53 *	I have 806 clients and 1 servers
+May 20 17:50:53 *	806 806 :Current local users 806, max 806
+May 20 17:50:53 *	86168 87240 :Current global users 86168, max 87240
+May 20 17:50:53 *	Highest connection count: 807 (806 clients) (2462 connections received)
+May 20 17:50:53 *	- card.freenode.net Message of the Day - 
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 20 17:50:53 *	- Team Cymru (http://www.team-cymru.org).
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 20 17:50:53 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 20 17:50:53 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 20 17:50:53 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 20 17:50:53 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 20 17:50:53 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- Welcome to freenode - supporting the free and open source
+May 20 17:50:53 *	- software communities since 1998.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- By connecting to freenode you indicate that you have read and
+May 20 17:50:53 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 17:50:53 *	- please notify a volunteer staff member via private message, or send us an
+May 20 17:50:53 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 17:50:53 *	- situation within a reasonable period of time, and we may request further
+May 20 17:50:53 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 17:50:53 *	- Group Contacts representing an on-topic group.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- freenode runs an open proxy scanner.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- If you are looking for assistance, you will be able to find a list of
+May 20 17:50:53 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 17:50:53 *	- message any of us at any time. Please note that freenode predominantly
+May 20 17:50:53 *	- provides assistance via private message, and while we have a network
+May 20 17:50:53 *	- channel the primary venue for support requests is via private message to
+May 20 17:50:53 *	- a member of the volunteer staff team.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 17:50:53 *	- the project, or the communities that we host. The majority of such notices
+May 20 17:50:53 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 17:50:53 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 17:50:53 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 17:50:53 *	- global notices.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 17:50:53 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- freenode organises an annual conference, and we would like to extend our
+May 20 17:50:53 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 17:50:53 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 17:50:53 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 17:50:53 *	- network going for close to two decades.
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 17:50:53 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 17:50:53 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 17:50:53 *	- sponsor@freenode.live
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	- Thank you for using freenode!
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	-  
+May 20 17:50:53 *	End of /MOTD command.
+May 20 17:50:53 *	Pixiys sets mode +Z Pixiys
+May 20 17:50:53 *	Pixiys sets mode +i Pixiys
+May 20 17:50:57 No channel joined. Try /join #<channel>
+May 20 17:51:23 *	disconnect :Unknown command
+May 20 17:51:54 *	Disconnected ().
+May 20 17:52:14 Perl interface unloaded
+May 20 17:52:14 Checksum plugin unloaded
+May 20 17:52:14 Sysinfo plugin unloaded
+**** ENDING LOGGING AT Sun May 20 17:52:14 2018
+
+**** BEGIN LOGGING AT Sun May 20 17:52:43 2018
+
+May 20 17:52:43 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 17:52:43 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 20 17:52:43 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 20 17:52:43 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 17:52:43 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 17:52:43 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 20 17:52:43 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 20 17:52:43 *	There are 122 users and 86021 invisible on 34 servers
+May 20 17:52:43 *	31 :IRC Operators online
+May 20 17:52:43 *	13 :unknown connection(s)
+May 20 17:52:43 *	52698 :channels formed
+May 20 17:52:43 *	I have 808 clients and 1 servers
+May 20 17:52:43 *	808 813 :Current local users 808, max 813
+May 20 17:52:43 *	86143 87240 :Current global users 86143, max 87240
+May 20 17:52:43 *	Highest connection count: 814 (813 clients) (2477 connections received)
+May 20 17:52:43 *	- card.freenode.net Message of the Day - 
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 20 17:52:43 *	- Team Cymru (http://www.team-cymru.org).
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 20 17:52:43 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 20 17:52:43 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 20 17:52:43 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 20 17:52:43 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 20 17:52:43 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- Welcome to freenode - supporting the free and open source
+May 20 17:52:43 *	- software communities since 1998.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- By connecting to freenode you indicate that you have read and
+May 20 17:52:43 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 17:52:43 *	- please notify a volunteer staff member via private message, or send us an
+May 20 17:52:43 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 17:52:43 *	- situation within a reasonable period of time, and we may request further
+May 20 17:52:43 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 17:52:43 *	- Group Contacts representing an on-topic group.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- freenode runs an open proxy scanner.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- If you are looking for assistance, you will be able to find a list of
+May 20 17:52:43 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 17:52:43 *	- message any of us at any time. Please note that freenode predominantly
+May 20 17:52:43 *	- provides assistance via private message, and while we have a network
+May 20 17:52:43 *	- channel the primary venue for support requests is via private message to
+May 20 17:52:43 *	- a member of the volunteer staff team.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 17:52:43 *	- the project, or the communities that we host. The majority of such notices
+May 20 17:52:43 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 17:52:43 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 17:52:43 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 17:52:43 *	- global notices.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 17:52:43 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- freenode organises an annual conference, and we would like to extend our
+May 20 17:52:43 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 17:52:43 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 17:52:43 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 17:52:43 *	- network going for close to two decades.
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 17:52:43 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 17:52:43 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 17:52:43 *	- sponsor@freenode.live
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	- Thank you for using freenode!
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	-  
+May 20 17:52:43 *	End of /MOTD command.
+May 20 17:52:43 *	Pixiys sets mode +Z Pixiys
+May 20 17:52:43 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 17:55:55 2018
+
+May 20 17:55:55 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 17:55:55 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 20 17:55:55 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 20 17:55:55 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 17:55:55 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 17:55:55 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 20 17:55:55 *	MONITOR=100 ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 20 17:55:55 *	There are 122 users and 85966 invisible on 34 servers
+May 20 17:55:55 *	31 :IRC Operators online
+May 20 17:55:55 *	24 :unknown connection(s)
+May 20 17:55:55 *	52693 :channels formed
+May 20 17:55:55 *	I have 1080 clients and 1 servers
+May 20 17:55:55 *	1080 1086 :Current local users 1080, max 1086
+May 20 17:55:55 *	86088 86844 :Current global users 86088, max 86844
+May 20 17:55:55 *	Highest connection count: 1087 (1086 clients) (2856 connections received)
+May 20 17:55:55 *	- leguin.freenode.net Message of the Day - 
+May 20 17:55:55 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 20 17:55:55 *	- the Academic Computer Club at Umeå University for sponsoring
+May 20 17:55:55 *	- this server!
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 20 17:55:55 *	- Ursula Le Guin was an American author primarily known for
+May 20 17:55:55 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 20 17:55:55 *	- and Nebula awards, and was best known for her Earthsea
+May 20 17:55:55 *	- and Hainish series.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- Welcome to freenode - supporting the free and open source
+May 20 17:55:55 *	- software communities since 1998.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- By connecting to freenode you indicate that you have read and
+May 20 17:55:55 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 17:55:55 *	- please notify a volunteer staff member via private message, or send us an
+May 20 17:55:55 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 17:55:55 *	- situation within a reasonable period of time, and we may request further
+May 20 17:55:55 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 17:55:55 *	- Group Contacts representing an on-topic group.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- freenode runs an open proxy scanner.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- If you are looking for assistance, you will be able to find a list of
+May 20 17:55:55 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 17:55:55 *	- message any of us at any time. Please note that freenode predominantly
+May 20 17:55:55 *	- provides assistance via private message, and while we have a network
+May 20 17:55:55 *	- channel the primary venue for support requests is via private message to
+May 20 17:55:55 *	- a member of the volunteer staff team.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 17:55:55 *	- the project, or the communities that we host. The majority of such notices
+May 20 17:55:55 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 17:55:55 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 17:55:55 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 17:55:55 *	- global notices.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 17:55:55 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- freenode organises an annual conference, and we would like to extend our
+May 20 17:55:55 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 17:55:55 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 17:55:55 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 17:55:55 *	- network going for close to two decades.
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 17:55:55 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 17:55:55 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 17:55:55 *	- sponsor@freenode.live
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	- Thank you for using freenode!
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	-  
+May 20 17:55:55 *	End of /MOTD command.
+May 20 17:55:55 *	Pixiys sets mode +Z Pixiys
+May 20 17:55:55 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 17:58:51 2018
+
+May 20 17:58:51 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 17:58:51 *	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.4
+May 20 17:58:51 *	This server was created Sat Jan 7 2017 at 12:04:42 EST
+May 20 17:58:51 *	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 17:58:51 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 17:58:51 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 20 17:58:51 *	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+May 20 17:58:51 *	There are 122 users and 85925 invisible on 34 servers
+May 20 17:58:51 *	31 :IRC Operators online
+May 20 17:58:51 *	13 :unknown connection(s)
+May 20 17:58:51 *	52700 :channels formed
+May 20 17:58:51 *	I have 4441 clients and 1 servers
+May 20 17:58:51 *	4441 6943 :Current local users 4441, max 6943
+May 20 17:58:51 *	86047 97718 :Current global users 86047, max 97718
+May 20 17:58:51 *	Highest connection count: 6944 (6943 clients) (5886784 connections received)
+May 20 17:58:51 *	- orwell.freenode.net Message of the Day - 
+May 20 17:58:51 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+May 20 17:58:51 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 20 17:58:51 *	- this server!
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+May 20 17:58:51 *	- moved him to England when he was one year old, and it
+May 20 17:58:51 *	- was in England where he was educated and spent most of
+May 20 17:58:51 *	- his life.  Orwell is perhaps best known for his novels
+May 20 17:58:51 *	- Nineteen Eighty-Four and Animal Farm.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- Welcome to freenode - supporting the free and open source
+May 20 17:58:51 *	- software communities since 1998.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- By connecting to freenode you indicate that you have read and
+May 20 17:58:51 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 17:58:51 *	- please notify a volunteer staff member via private message, or send us an
+May 20 17:58:51 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 17:58:51 *	- situation within a reasonable period of time, and we may request further
+May 20 17:58:51 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 17:58:51 *	- Group Contacts representing an on-topic group.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- freenode runs an open proxy scanner.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- If you are looking for assistance, you will be able to find a list of
+May 20 17:58:51 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 17:58:51 *	- message any of us at any time. Please note that freenode predominantly
+May 20 17:58:51 *	- provides assistance via private message, and while we have a network
+May 20 17:58:51 *	- channel the primary venue for support requests is via private message to
+May 20 17:58:51 *	- a member of the volunteer staff team.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 17:58:51 *	- the project, or the communities that we host. The majority of such notices
+May 20 17:58:51 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 17:58:51 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 17:58:51 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 17:58:51 *	- global notices.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 17:58:51 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- freenode organises an annual conference, and we would like to extend our
+May 20 17:58:51 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 17:58:51 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 17:58:51 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 17:58:51 *	- network going for close to two decades.
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 17:58:51 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 17:58:51 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 17:58:51 *	- sponsor@freenode.live
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	- Thank you for using freenode!
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	-  
+May 20 17:58:51 *	End of /MOTD command.
+May 20 17:58:51 *	Pixiys sets mode +Z Pixiys
+May 20 17:58:51 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 18:49:24 2018
+
+May 20 18:49:24 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 18:49:24 *	Your host is moon.freenode.net[173.230.128.213/6697], running version ircd-seven-1.1.7
+May 20 18:49:24 *	This server was created Sun May 20 2018 at 18:25:04 UTC
+May 20 18:49:24 *	moon.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 18:49:24 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 18:49:24 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 20 18:49:24 *	CNOTICE MONITOR=100 WHOX ETRACE KNOCK :are supported by this server
+May 20 18:49:24 *	There are 122 users and 85476 invisible on 34 servers
+May 20 18:49:24 *	31 :IRC Operators online
+May 20 18:49:24 *	30 :unknown connection(s)
+May 20 18:49:24 *	52575 :channels formed
+May 20 18:49:24 *	I have 1861 clients and 1 servers
+May 20 18:49:24 *	1861 1866 :Current local users 1861, max 1866
+May 20 18:49:24 *	85598 86844 :Current global users 85598, max 86844
+May 20 18:49:24 *	Highest connection count: 1867 (1866 clients) (4816 connections received)
+May 20 18:49:24 *	- moon.freenode.net Message of the Day - 
+May 20 18:49:24 *	- Welcome to moon.freenode.net in Atlanta, GA, US! Thanks to
+May 20 18:49:24 *	- Linode for sponsoring this server!
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- MOON, ELIZABETH (1945-) Born in South Texas, USA, 
+May 20 18:49:24 *	- Elizabeth Moon is an American science fiction and fantasy
+May 20 18:49:24 *	- author with over 20 published works. Her novel The Speed 
+May 20 18:49:24 *	- Of Dark received the Arthur C. Clarke and Nebula Awards in 2003
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- Welcome to freenode - supporting the free and open source
+May 20 18:49:24 *	- software communities since 1998.
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- By connecting to freenode you indicate that you have read and
+May 20 18:49:24 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 18:49:24 *	- please notify a volunteer staff member via private message, or send us an
+May 20 18:49:24 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 18:49:24 *	- situation within a reasonable period of time, and we may request further
+May 20 18:49:24 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 18:49:24 *	- Group Contacts representing an on-topic group.
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- freenode runs an open proxy scanner.
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- If you are looking for assistance, you will be able to find a list of
+May 20 18:49:24 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 18:49:24 *	- message any of us at any time. Please note that freenode predominantly
+May 20 18:49:24 *	- provides assistance via private message, and while we have a network
+May 20 18:49:24 *	- channel the primary venue for support requests is via private message to
+May 20 18:49:24 *	- a member of the volunteer staff team.
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 18:49:24 *	- the project, or the communities that we host. The majority of such notices
+May 20 18:49:24 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 18:49:24 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 18:49:24 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 18:49:24 *	- global notices.
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 18:49:24 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- freenode organises an annual conference, and we would like to extend our
+May 20 18:49:24 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 18:49:24 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 18:49:24 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 18:49:24 *	- network going for close to two decades.
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 18:49:24 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 18:49:24 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 18:49:24 *	- sponsor@freenode.live
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	- Thank you for using freenode!
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	-  
+May 20 18:49:24 *	End of /MOTD command.
+May 20 18:49:24 *	Pixiys sets mode +Z Pixiys
+May 20 18:49:24 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 18:51:04 2018
+
+May 20 18:51:04 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 18:51:04 *	Your host is moon.freenode.net[173.230.128.213/6697], running version ircd-seven-1.1.7
+May 20 18:51:04 *	This server was created Sun May 20 2018 at 18:25:04 UTC
+May 20 18:51:04 *	moon.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 18:51:04 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 18:51:04 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 20 18:51:04 *	CNOTICE MONITOR=100 WHOX ETRACE KNOCK :are supported by this server
+May 20 18:51:04 *	There are 122 users and 85470 invisible on 34 servers
+May 20 18:51:04 *	31 :IRC Operators online
+May 20 18:51:04 *	31 :unknown connection(s)
+May 20 18:51:04 *	52570 :channels formed
+May 20 18:51:04 *	I have 1866 clients and 1 servers
+May 20 18:51:04 *	1866 1868 :Current local users 1866, max 1868
+May 20 18:51:04 *	85592 86844 :Current global users 85592, max 86844
+May 20 18:51:04 *	Highest connection count: 1869 (1868 clients) (4839 connections received)
+May 20 18:51:04 *	- moon.freenode.net Message of the Day - 
+May 20 18:51:04 *	- Welcome to moon.freenode.net in Atlanta, GA, US! Thanks to
+May 20 18:51:04 *	- Linode for sponsoring this server!
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- MOON, ELIZABETH (1945-) Born in South Texas, USA, 
+May 20 18:51:04 *	- Elizabeth Moon is an American science fiction and fantasy
+May 20 18:51:04 *	- author with over 20 published works. Her novel The Speed 
+May 20 18:51:04 *	- Of Dark received the Arthur C. Clarke and Nebula Awards in 2003
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- Welcome to freenode - supporting the free and open source
+May 20 18:51:04 *	- software communities since 1998.
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- By connecting to freenode you indicate that you have read and
+May 20 18:51:04 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 18:51:04 *	- please notify a volunteer staff member via private message, or send us an
+May 20 18:51:04 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 18:51:04 *	- situation within a reasonable period of time, and we may request further
+May 20 18:51:04 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 18:51:04 *	- Group Contacts representing an on-topic group.
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- freenode runs an open proxy scanner.
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- If you are looking for assistance, you will be able to find a list of
+May 20 18:51:04 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 18:51:04 *	- message any of us at any time. Please note that freenode predominantly
+May 20 18:51:04 *	- provides assistance via private message, and while we have a network
+May 20 18:51:04 *	- channel the primary venue for support requests is via private message to
+May 20 18:51:04 *	- a member of the volunteer staff team.
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 18:51:04 *	- the project, or the communities that we host. The majority of such notices
+May 20 18:51:04 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 18:51:04 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 18:51:04 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 18:51:04 *	- global notices.
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 18:51:04 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- freenode organises an annual conference, and we would like to extend our
+May 20 18:51:04 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 18:51:04 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 18:51:04 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 18:51:04 *	- network going for close to two decades.
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 18:51:04 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 18:51:04 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 18:51:04 *	- sponsor@freenode.live
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	- Thank you for using freenode!
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	-  
+May 20 18:51:04 *	End of /MOTD command.
+May 20 18:51:04 *	Pixiys sets mode +Z Pixiys
+May 20 18:51:04 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 22:27:44 2018
+
+May 20 22:27:44 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 22:27:44 *	Your host is moon.freenode.net[173.230.128.213/6697], running version ircd-seven-1.1.7
+May 20 22:27:44 *	This server was created Sun May 20 2018 at 18:25:04 UTC
+May 20 22:27:44 *	moon.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 22:27:44 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 22:27:44 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 20 22:27:44 *	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+May 20 22:27:44 *	There are 117 users and 84626 invisible on 34 servers
+May 20 22:27:44 *	31 :IRC Operators online
+May 20 22:27:44 *	30 :unknown connection(s)
+May 20 22:27:44 *	52524 :channels formed
+May 20 22:27:44 *	I have 2211 clients and 1 servers
+May 20 22:27:44 *	2211 2215 :Current local users 2211, max 2215
+May 20 22:27:44 *	84743 86844 :Current global users 84743, max 86844
+May 20 22:27:44 *	Highest connection count: 2216 (2215 clients) (7684 connections received)
+May 20 22:27:44 *	- moon.freenode.net Message of the Day - 
+May 20 22:27:44 *	- Welcome to moon.freenode.net in Atlanta, GA, US! Thanks to
+May 20 22:27:44 *	- Linode for sponsoring this server!
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- MOON, ELIZABETH (1945-) Born in South Texas, USA, 
+May 20 22:27:44 *	- Elizabeth Moon is an American science fiction and fantasy
+May 20 22:27:44 *	- author with over 20 published works. Her novel The Speed 
+May 20 22:27:44 *	- Of Dark received the Arthur C. Clarke and Nebula Awards in 2003
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- Welcome to freenode - supporting the free and open source
+May 20 22:27:44 *	- software communities since 1998.
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- By connecting to freenode you indicate that you have read and
+May 20 22:27:44 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 22:27:44 *	- please notify a volunteer staff member via private message, or send us an
+May 20 22:27:44 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 22:27:44 *	- situation within a reasonable period of time, and we may request further
+May 20 22:27:44 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 22:27:44 *	- Group Contacts representing an on-topic group.
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- freenode runs an open proxy scanner.
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- If you are looking for assistance, you will be able to find a list of
+May 20 22:27:44 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 22:27:44 *	- message any of us at any time. Please note that freenode predominantly
+May 20 22:27:44 *	- provides assistance via private message, and while we have a network
+May 20 22:27:44 *	- channel the primary venue for support requests is via private message to
+May 20 22:27:44 *	- a member of the volunteer staff team.
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 22:27:44 *	- the project, or the communities that we host. The majority of such notices
+May 20 22:27:44 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 22:27:44 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 22:27:44 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 22:27:44 *	- global notices.
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 22:27:44 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- freenode organises an annual conference, and we would like to extend our
+May 20 22:27:44 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 22:27:44 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 22:27:44 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 22:27:44 *	- network going for close to two decades.
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 22:27:44 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 22:27:44 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 22:27:44 *	- sponsor@freenode.live
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	- Thank you for using freenode!
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	-  
+May 20 22:27:44 *	End of /MOTD command.
+May 20 22:27:44 *	Pixiys sets mode +Z Pixiys
+May 20 22:27:44 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 22:29:34 2018
+
+May 20 22:29:34 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 22:29:34 *	Your host is moon.freenode.net[173.230.128.213/6697], running version ircd-seven-1.1.7
+May 20 22:29:34 *	This server was created Sun May 20 2018 at 18:25:04 UTC
+May 20 22:29:34 *	moon.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 22:29:34 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 22:29:34 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 20 22:29:34 *	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+May 20 22:29:34 *	There are 117 users and 84605 invisible on 34 servers
+May 20 22:29:34 *	31 :IRC Operators online
+May 20 22:29:34 *	21 :unknown connection(s)
+May 20 22:29:34 *	52530 :channels formed
+May 20 22:29:34 *	I have 2208 clients and 1 servers
+May 20 22:29:34 *	2208 2215 :Current local users 2208, max 2215
+May 20 22:29:34 *	84722 86844 :Current global users 84722, max 86844
+May 20 22:29:34 *	Highest connection count: 2216 (2215 clients) (7706 connections received)
+May 20 22:29:34 *	- moon.freenode.net Message of the Day - 
+May 20 22:29:34 *	- Welcome to moon.freenode.net in Atlanta, GA, US! Thanks to
+May 20 22:29:34 *	- Linode for sponsoring this server!
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- MOON, ELIZABETH (1945-) Born in South Texas, USA, 
+May 20 22:29:34 *	- Elizabeth Moon is an American science fiction and fantasy
+May 20 22:29:34 *	- author with over 20 published works. Her novel The Speed 
+May 20 22:29:34 *	- Of Dark received the Arthur C. Clarke and Nebula Awards in 2003
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- Welcome to freenode - supporting the free and open source
+May 20 22:29:34 *	- software communities since 1998.
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- By connecting to freenode you indicate that you have read and
+May 20 22:29:34 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 22:29:34 *	- please notify a volunteer staff member via private message, or send us an
+May 20 22:29:34 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 22:29:34 *	- situation within a reasonable period of time, and we may request further
+May 20 22:29:34 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 22:29:34 *	- Group Contacts representing an on-topic group.
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- freenode runs an open proxy scanner.
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- If you are looking for assistance, you will be able to find a list of
+May 20 22:29:34 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 22:29:34 *	- message any of us at any time. Please note that freenode predominantly
+May 20 22:29:34 *	- provides assistance via private message, and while we have a network
+May 20 22:29:34 *	- channel the primary venue for support requests is via private message to
+May 20 22:29:34 *	- a member of the volunteer staff team.
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 22:29:34 *	- the project, or the communities that we host. The majority of such notices
+May 20 22:29:34 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 22:29:34 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 22:29:34 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 22:29:34 *	- global notices.
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 22:29:34 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- freenode organises an annual conference, and we would like to extend our
+May 20 22:29:34 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 22:29:34 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 22:29:34 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 22:29:34 *	- network going for close to two decades.
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 22:29:34 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 22:29:34 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 22:29:34 *	- sponsor@freenode.live
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	- Thank you for using freenode!
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	-  
+May 20 22:29:34 *	End of /MOTD command.
+May 20 22:29:34 *	Pixiys sets mode +Z Pixiys
+May 20 22:29:34 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 22:30:33 2018
+
+May 20 22:30:33 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 22:30:33 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 20 22:30:33 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 20 22:30:33 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 22:30:33 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 22:30:33 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 20 22:30:33 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 20 22:30:33 *	There are 117 users and 84597 invisible on 34 servers
+May 20 22:30:33 *	31 :IRC Operators online
+May 20 22:30:33 *	28 :unknown connection(s)
+May 20 22:30:33 *	52518 :channels formed
+May 20 22:30:33 *	I have 1483 clients and 1 servers
+May 20 22:30:33 *	1483 1486 :Current local users 1483, max 1486
+May 20 22:30:33 *	84714 86844 :Current global users 84714, max 86844
+May 20 22:30:33 *	Highest connection count: 1487 (1486 clients) (5741 connections received)
+May 20 22:30:33 *	- leguin.freenode.net Message of the Day - 
+May 20 22:30:33 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 20 22:30:33 *	- the Academic Computer Club at Umeå University for sponsoring
+May 20 22:30:33 *	- this server!
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 20 22:30:33 *	- Ursula Le Guin was an American author primarily known for
+May 20 22:30:33 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 20 22:30:33 *	- and Nebula awards, and was best known for her Earthsea
+May 20 22:30:33 *	- and Hainish series.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- Welcome to freenode - supporting the free and open source
+May 20 22:30:33 *	- software communities since 1998.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- By connecting to freenode you indicate that you have read and
+May 20 22:30:33 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 22:30:33 *	- please notify a volunteer staff member via private message, or send us an
+May 20 22:30:33 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 22:30:33 *	- situation within a reasonable period of time, and we may request further
+May 20 22:30:33 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 22:30:33 *	- Group Contacts representing an on-topic group.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- freenode runs an open proxy scanner.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- If you are looking for assistance, you will be able to find a list of
+May 20 22:30:33 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 22:30:33 *	- message any of us at any time. Please note that freenode predominantly
+May 20 22:30:33 *	- provides assistance via private message, and while we have a network
+May 20 22:30:33 *	- channel the primary venue for support requests is via private message to
+May 20 22:30:33 *	- a member of the volunteer staff team.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 22:30:33 *	- the project, or the communities that we host. The majority of such notices
+May 20 22:30:33 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 22:30:33 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 22:30:33 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 22:30:33 *	- global notices.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 22:30:33 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- freenode organises an annual conference, and we would like to extend our
+May 20 22:30:33 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 22:30:33 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 22:30:33 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 22:30:33 *	- network going for close to two decades.
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 22:30:33 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 22:30:33 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 22:30:33 *	- sponsor@freenode.live
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	- Thank you for using freenode!
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	-  
+May 20 22:30:33 *	End of /MOTD command.
+May 20 22:30:33 *	Pixiys sets mode +Z Pixiys
+May 20 22:30:33 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 22:31:38 2018
+
+May 20 22:31:38 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 22:31:38 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 20 22:31:38 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 20 22:31:38 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 22:31:38 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 22:31:38 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 20 22:31:38 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 20 22:31:38 *	There are 117 users and 84604 invisible on 34 servers
+May 20 22:31:38 *	31 :IRC Operators online
+May 20 22:31:38 *	23 :unknown connection(s)
+May 20 22:31:38 *	52526 :channels formed
+May 20 22:31:38 *	I have 1489 clients and 1 servers
+May 20 22:31:38 *	1489 1491 :Current local users 1489, max 1491
+May 20 22:31:38 *	84721 86844 :Current global users 84721, max 86844
+May 20 22:31:38 *	Highest connection count: 1492 (1491 clients) (5753 connections received)
+May 20 22:31:38 *	- leguin.freenode.net Message of the Day - 
+May 20 22:31:38 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 20 22:31:38 *	- the Academic Computer Club at Umeå University for sponsoring
+May 20 22:31:38 *	- this server!
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 20 22:31:38 *	- Ursula Le Guin was an American author primarily known for
+May 20 22:31:38 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 20 22:31:38 *	- and Nebula awards, and was best known for her Earthsea
+May 20 22:31:38 *	- and Hainish series.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- Welcome to freenode - supporting the free and open source
+May 20 22:31:38 *	- software communities since 1998.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- By connecting to freenode you indicate that you have read and
+May 20 22:31:38 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 22:31:38 *	- please notify a volunteer staff member via private message, or send us an
+May 20 22:31:38 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 22:31:38 *	- situation within a reasonable period of time, and we may request further
+May 20 22:31:38 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 22:31:38 *	- Group Contacts representing an on-topic group.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- freenode runs an open proxy scanner.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- If you are looking for assistance, you will be able to find a list of
+May 20 22:31:38 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 22:31:38 *	- message any of us at any time. Please note that freenode predominantly
+May 20 22:31:38 *	- provides assistance via private message, and while we have a network
+May 20 22:31:38 *	- channel the primary venue for support requests is via private message to
+May 20 22:31:38 *	- a member of the volunteer staff team.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 22:31:38 *	- the project, or the communities that we host. The majority of such notices
+May 20 22:31:38 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 22:31:38 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 22:31:38 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 22:31:38 *	- global notices.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 22:31:38 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- freenode organises an annual conference, and we would like to extend our
+May 20 22:31:38 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 22:31:38 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 22:31:38 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 22:31:38 *	- network going for close to two decades.
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 22:31:38 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 22:31:38 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 22:31:38 *	- sponsor@freenode.live
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	- Thank you for using freenode!
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	-  
+May 20 22:31:38 *	End of /MOTD command.
+May 20 22:31:38 *	Pixiys sets mode +Z Pixiys
+May 20 22:31:38 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 22:33:18 2018
+
+May 20 22:33:18 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 22:33:18 *	Your host is verne.freenode.net[185.30.166.37/6697], running version ircd-seven-1.1.4
+May 20 22:33:18 *	This server was created Sat Jan 7 2017 at 11:53:54 EST
+May 20 22:33:18 *	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 22:33:18 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 22:33:18 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+May 20 22:33:18 *	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+May 20 22:33:18 *	There are 117 users and 84612 invisible on 34 servers
+May 20 22:33:18 *	31 :IRC Operators online
+May 20 22:33:18 *	26 :unknown connection(s)
+May 20 22:33:18 *	52524 :channels formed
+May 20 22:33:18 *	I have 4228 clients and 2 servers
+May 20 22:33:18 *	4228 7978 :Current local users 4228, max 7978
+May 20 22:33:18 *	84729 97718 :Current global users 84729, max 97718
+May 20 22:33:18 *	Highest connection count: 7980 (7978 clients) (5629066 connections received)
+May 20 22:33:18 *	- verne.freenode.net Message of the Day - 
+May 20 22:33:18 *	- Welcome to verne.freenode.net in Amsterdam, NL.
+May 20 22:33:18 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 20 22:33:18 *	- this server!
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+May 20 22:33:18 *	- a pioneering french author known for novels such as Twenty
+May 20 22:33:18 *	- Thousand Leagues Under the Sea, A Journey to the Center of the
+May 20 22:33:18 *	- Earth, and Around the World in Eighty Days. Often lauded as the
+May 20 22:33:18 *	- Father of science fiction, Verne wrote about concepts such as
+May 20 22:33:18 *	- space travel, skyscrapers, and worldwide communications
+May 20 22:33:18 *	- networks long before these ideas became popularised or realised.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- Welcome to freenode - supporting the free and open source
+May 20 22:33:18 *	- software communities since 1998.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- By connecting to freenode you indicate that you have read and
+May 20 22:33:18 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 22:33:18 *	- please notify a volunteer staff member via private message, or send us an
+May 20 22:33:18 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 22:33:18 *	- situation within a reasonable period of time, and we may request further
+May 20 22:33:18 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 22:33:18 *	- Group Contacts representing an on-topic group.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- freenode runs an open proxy scanner.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- If you are looking for assistance, you will be able to find a list of
+May 20 22:33:18 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 22:33:18 *	- message any of us at any time. Please note that freenode predominantly
+May 20 22:33:18 *	- provides assistance via private message, and while we have a network
+May 20 22:33:18 *	- channel the primary venue for support requests is via private message to
+May 20 22:33:18 *	- a member of the volunteer staff team.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 22:33:18 *	- the project, or the communities that we host. The majority of such notices
+May 20 22:33:18 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 22:33:18 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 22:33:18 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 22:33:18 *	- global notices.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 22:33:18 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- freenode organises an annual conference, and we would like to extend our
+May 20 22:33:18 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 22:33:18 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 22:33:18 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 22:33:18 *	- network going for close to two decades.
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 22:33:18 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 22:33:18 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 22:33:18 *	- sponsor@freenode.live
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	- Thank you for using freenode!
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	-  
+May 20 22:33:18 *	End of /MOTD command.
+May 20 22:33:18 *	Pixiys sets mode +Z Pixiys
+May 20 22:33:18 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 22:56:34 2018
+
+May 20 22:56:34 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 22:56:34 *	Your host is moon.freenode.net[173.230.128.213/6697], running version ircd-seven-1.1.7
+May 20 22:56:34 *	This server was created Sun May 20 2018 at 18:25:04 UTC
+May 20 22:56:34 *	moon.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 22:56:34 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 22:56:34 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 20 22:56:34 *	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+May 20 22:56:34 *	There are 117 users and 84518 invisible on 34 servers
+May 20 22:56:34 *	31 :IRC Operators online
+May 20 22:56:34 *	20 :unknown connection(s)
+May 20 22:56:34 *	52497 :channels formed
+May 20 22:56:34 *	I have 2219 clients and 1 servers
+May 20 22:56:34 *	2219 2242 :Current local users 2219, max 2242
+May 20 22:56:34 *	84635 86844 :Current global users 84635, max 86844
+May 20 22:56:34 *	Highest connection count: 2243 (2242 clients) (8009 connections received)
+May 20 22:56:34 *	- moon.freenode.net Message of the Day - 
+May 20 22:56:34 *	- Welcome to moon.freenode.net in Atlanta, GA, US! Thanks to
+May 20 22:56:34 *	- Linode for sponsoring this server!
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- MOON, ELIZABETH (1945-) Born in South Texas, USA, 
+May 20 22:56:34 *	- Elizabeth Moon is an American science fiction and fantasy
+May 20 22:56:34 *	- author with over 20 published works. Her novel The Speed 
+May 20 22:56:34 *	- Of Dark received the Arthur C. Clarke and Nebula Awards in 2003
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- Welcome to freenode - supporting the free and open source
+May 20 22:56:34 *	- software communities since 1998.
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- By connecting to freenode you indicate that you have read and
+May 20 22:56:34 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 22:56:34 *	- please notify a volunteer staff member via private message, or send us an
+May 20 22:56:34 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 22:56:34 *	- situation within a reasonable period of time, and we may request further
+May 20 22:56:34 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 22:56:34 *	- Group Contacts representing an on-topic group.
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- freenode runs an open proxy scanner.
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- If you are looking for assistance, you will be able to find a list of
+May 20 22:56:34 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 22:56:34 *	- message any of us at any time. Please note that freenode predominantly
+May 20 22:56:34 *	- provides assistance via private message, and while we have a network
+May 20 22:56:34 *	- channel the primary venue for support requests is via private message to
+May 20 22:56:34 *	- a member of the volunteer staff team.
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 22:56:34 *	- the project, or the communities that we host. The majority of such notices
+May 20 22:56:34 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 22:56:34 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 22:56:34 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 22:56:34 *	- global notices.
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 22:56:34 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- freenode organises an annual conference, and we would like to extend our
+May 20 22:56:34 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 22:56:34 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 22:56:34 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 22:56:34 *	- network going for close to two decades.
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 22:56:34 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 22:56:34 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 22:56:34 *	- sponsor@freenode.live
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	- Thank you for using freenode!
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	-  
+May 20 22:56:34 *	End of /MOTD command.
+May 20 22:56:34 *	Pixiys sets mode +Z Pixiys
+May 20 22:56:34 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Sun May 20 23:03:47 2018
+
+May 20 23:03:47 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 20 23:03:47 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 20 23:03:47 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 20 23:03:47 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 20 23:03:47 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 20 23:03:47 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 20 23:03:47 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 20 23:03:47 *	There are 119 users and 86244 invisible on 34 servers
+May 20 23:03:47 *	31 :IRC Operators online
+May 20 23:03:47 *	28 :unknown connection(s)
+May 20 23:03:47 *	52706 :channels formed
+May 20 23:03:47 *	I have 2986 clients and 1 servers
+May 20 23:03:47 *	2986 3648 :Current local users 2986, max 3648
+May 20 23:03:47 *	86363 90947 :Current global users 86363, max 90947
+May 20 23:03:47 *	Highest connection count: 3649 (3648 clients) (26466 connections received)
+May 20 23:03:47 *	- leguin.freenode.net Message of the Day - 
+May 20 23:03:47 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 20 23:03:47 *	- the Academic Computer Club at Umeå University for sponsoring
+May 20 23:03:47 *	- this server!
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 20 23:03:47 *	- Ursula Le Guin was an American author primarily known for
+May 20 23:03:47 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 20 23:03:47 *	- and Nebula awards, and was best known for her Earthsea
+May 20 23:03:47 *	- and Hainish series.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- Welcome to freenode - supporting the free and open source
+May 20 23:03:47 *	- software communities since 1998.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- By connecting to freenode you indicate that you have read and
+May 20 23:03:47 *	- accept our policies and guidelines as set out on https://freenode.net
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- In the event that you observe behaviour that contravenes our policies,
+May 20 23:03:47 *	- please notify a volunteer staff member via private message, or send us an
+May 20 23:03:47 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 20 23:03:47 *	- situation within a reasonable period of time, and we may request further
+May 20 23:03:47 *	- information or, as appropriate, involve other parties such as channel operators 
+May 20 23:03:47 *	- Group Contacts representing an on-topic group.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- freenode runs an open proxy scanner.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- If you are looking for assistance, you will be able to find a list of
+May 20 23:03:47 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 20 23:03:47 *	- message any of us at any time. Please note that freenode predominantly
+May 20 23:03:47 *	- provides assistance via private message, and while we have a network
+May 20 23:03:47 *	- channel the primary venue for support requests is via private message to
+May 20 23:03:47 *	- a member of the volunteer staff team.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 20 23:03:47 *	- the project, or the communities that we host. The majority of such notices
+May 20 23:03:47 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 20 23:03:47 *	- do not miss them. Important messages relating to the freenode project, including
+May 20 23:03:47 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 20 23:03:47 *	- global notices.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- Representing an on-topic project? Don't forget to register, more information
+May 20 23:03:47 *	- can be found on the https://freenode.net website under "Group Registration".
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- freenode organises an annual conference, and we would like to extend our
+May 20 23:03:47 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 20 23:03:47 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 20 23:03:47 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 20 23:03:47 *	- network going for close to two decades.
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 20 23:03:47 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 20 23:03:47 *	- you are interested in sponsoring this event, please send an e-mail to
+May 20 23:03:47 *	- sponsor@freenode.live
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	- Thank you for using freenode!
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	-  
+May 20 23:03:47 *	End of /MOTD command.
+May 20 23:03:47 *	Pixiys sets mode +Z Pixiys
+May 20 23:03:47 *	Pixiys sets mode +i Pixiys
+May 21 21:27:38 *	No ping reply for 80636 seconds, disconnecting.
+May 21 21:27:38 *	Disconnected ().
+May 21 21:27:48 *	Looking up chat.freenode.net
+May 21 21:27:48 *	Connecting to chat.freenode.net (139.162.227.51) port 6697...
+May 21 21:27:48 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 21:27:48 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 21:27:48 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 21:27:48 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 21:27:48 *	* Subject: /CN=niven.freenode.net
+May 21 21:27:48 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 21:27:49 *	* Certification info:
+May 21 21:27:49 *	  Subject:
+May 21 21:27:49 *	    CN=niven.freenode.net
+May 21 21:27:49 *	  Issuer:
+May 21 21:27:49 *	    C=US
+May 21 21:27:49 *	    O=Let's Encrypt
+May 21 21:27:49 *	    CN=Let's Encrypt Authority X3
+May 21 21:27:49 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 21 21:27:49 *	  Sign algorithm sha256WithRSAEncryption
+May 21 21:27:49 *	  Valid since Mar 26 05:01:51 2018 GM to Jun 24 05:01:51 2018 GM
+May 21 21:27:49 *	* Cipher info:
+May 21 21:27:49 *	  Version: TLSv1.2, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 21 21:27:49 *	Connected. Now logging in...
+May 21 21:27:49 *	*** Looking up your hostname...
+May 21 21:27:49 *	*** Checking Ident
+May 21 21:27:49 *	*** Found your hostname
+May 21 21:27:56 *	*** No Ident response
+May 21 21:27:56 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 21 21:27:56 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 21 21:27:57 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Mon May 21 21:27:57 2018
+
+**** BEGIN LOGGING AT Mon May 21 21:27:57 2018
+
+May 21 21:27:57 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 21:27:57 *	Your host is niven.freenode.net[139.162.227.51/6697], running version ircd-seven-1.1.7
+May 21 21:27:57 *	This server was created Sun May 20 2018 at 18:26:43 UTC
+May 21 21:27:57 *	niven.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 21:27:57 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 21:27:57 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 21 21:27:57 *	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+May 21 21:27:57 *	There are 119 users and 86240 invisible on 34 servers
+May 21 21:27:57 *	31 :IRC Operators online
+May 21 21:27:57 *	28 :unknown connection(s)
+May 21 21:27:57 *	52707 :channels formed
+May 21 21:27:57 *	I have 3179 clients and 1 servers
+May 21 21:27:57 *	3179 3925 :Current local users 3179, max 3925
+May 21 21:27:57 *	86359 90947 :Current global users 86359, max 90947
+May 21 21:27:57 *	Highest connection count: 3926 (3925 clients) (27665 connections received)
+May 21 21:27:57 *	- niven.freenode.net Message of the Day - 
+May 21 21:27:57 *	- Welcome to niven.freenode.net in London, United Kingdom, EU.
+May 21 21:27:57 *	- thanks to Linode for sponsoring this server!
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+May 21 21:27:57 *	- the setting of Protector, World of Ptaavs and the
+May 21 21:27:57 *	- Ringworld series.  Author of "Flash Crowd", a canonical
+May 21 21:27:57 *	- sociological hard science fiction short story dealing with
+May 21 21:27:57 *	- effects of near instantaneous transportation on a modern
+May 21 21:27:57 *	- technological society.  In addition, he is well known for his
+May 21 21:27:57 *	- collaborations with Jerry Pournelle, including The Mote in
+May 21 21:27:57 *	- God's Eye and Lucifer's Hammer.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- Welcome to freenode - supporting the free and open source
+May 21 21:27:57 *	- software communities since 1998.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- By connecting to freenode you indicate that you have read and
+May 21 21:27:57 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 21:27:57 *	- please notify a volunteer staff member via private message, or send us an
+May 21 21:27:57 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 21:27:57 *	- situation within a reasonable period of time, and we may request further
+May 21 21:27:57 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 21:27:57 *	- Group Contacts representing an on-topic group.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- freenode runs an open proxy scanner.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- If you are looking for assistance, you will be able to find a list of
+May 21 21:27:57 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 21:27:57 *	- message any of us at any time. Please note that freenode predominantly
+May 21 21:27:57 *	- provides assistance via private message, and while we have a network
+May 21 21:27:57 *	- channel the primary venue for support requests is via private message to
+May 21 21:27:57 *	- a member of the volunteer staff team.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 21:27:57 *	- the project, or the communities that we host. The majority of such notices
+May 21 21:27:57 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 21:27:57 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 21:27:57 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 21:27:57 *	- global notices.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 21:27:57 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- freenode organises an annual conference, and we would like to extend our
+May 21 21:27:57 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 21:27:57 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 21:27:57 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 21:27:57 *	- network going for close to two decades.
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 21:27:57 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 21:27:57 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 21:27:57 *	- sponsor@freenode.live
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	- Thank you for using freenode!
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	-  
+May 21 21:27:57 *	End of /MOTD command.
+May 21 21:27:57 *	Pixiys sets mode +Z Pixiys
+May 21 21:27:57 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 22:14:31 2018
+
+May 21 22:14:31 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:14:31 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 21 22:14:31 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 21 22:14:31 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:14:31 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:14:31 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 21 22:14:32 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 21 22:14:32 *	There are 118 users and 86035 invisible on 34 servers
+May 21 22:14:32 *	31 :IRC Operators online
+May 21 22:14:32 *	24 :unknown connection(s)
+May 21 22:14:32 *	52688 :channels formed
+May 21 22:14:32 *	I have 2610 clients and 1 servers
+May 21 22:14:32 *	2610 3120 :Current local users 2610, max 3120
+May 21 22:14:32 *	86153 90947 :Current global users 86153, max 90947
+May 21 22:14:32 *	Highest connection count: 3121 (3120 clients) (24921 connections received)
+May 21 22:14:32 *	- card.freenode.net Message of the Day - 
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 21 22:14:32 *	- Team Cymru (http://www.team-cymru.org).
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 21 22:14:32 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 21 22:14:32 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 21 22:14:32 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 21 22:14:32 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 21 22:14:32 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- Welcome to freenode - supporting the free and open source
+May 21 22:14:32 *	- software communities since 1998.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- By connecting to freenode you indicate that you have read and
+May 21 22:14:32 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:14:32 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:14:32 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:14:32 *	- situation within a reasonable period of time, and we may request further
+May 21 22:14:32 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:14:32 *	- Group Contacts representing an on-topic group.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- freenode runs an open proxy scanner.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:14:32 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:14:32 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:14:32 *	- provides assistance via private message, and while we have a network
+May 21 22:14:32 *	- channel the primary venue for support requests is via private message to
+May 21 22:14:32 *	- a member of the volunteer staff team.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:14:32 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:14:32 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:14:32 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:14:32 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:14:32 *	- global notices.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:14:32 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:14:32 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:14:32 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:14:32 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:14:32 *	- network going for close to two decades.
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:14:32 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:14:32 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:14:32 *	- sponsor@freenode.live
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	- Thank you for using freenode!
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	-  
+May 21 22:14:32 *	End of /MOTD command.
+May 21 22:14:32 *	Pixiys sets mode +Z Pixiys
+May 21 22:14:32 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 22:16:07 2018
+
+May 21 22:16:07 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:16:07 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 21 22:16:07 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 21 22:16:07 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:16:07 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:16:07 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 21 22:16:07 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 21 22:16:07 *	There are 118 users and 86021 invisible on 34 servers
+May 21 22:16:07 *	31 :IRC Operators online
+May 21 22:16:07 *	24 :unknown connection(s)
+May 21 22:16:07 *	52673 :channels formed
+May 21 22:16:07 *	I have 2612 clients and 1 servers
+May 21 22:16:07 *	2612 3120 :Current local users 2612, max 3120
+May 21 22:16:07 *	86139 90947 :Current global users 86139, max 90947
+May 21 22:16:07 *	Highest connection count: 3121 (3120 clients) (24944 connections received)
+May 21 22:16:07 *	- card.freenode.net Message of the Day - 
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 21 22:16:07 *	- Team Cymru (http://www.team-cymru.org).
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 21 22:16:07 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 21 22:16:07 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 21 22:16:07 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 21 22:16:07 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 21 22:16:07 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- Welcome to freenode - supporting the free and open source
+May 21 22:16:07 *	- software communities since 1998.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- By connecting to freenode you indicate that you have read and
+May 21 22:16:07 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:16:07 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:16:07 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:16:07 *	- situation within a reasonable period of time, and we may request further
+May 21 22:16:07 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:16:07 *	- Group Contacts representing an on-topic group.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- freenode runs an open proxy scanner.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:16:07 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:16:07 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:16:07 *	- provides assistance via private message, and while we have a network
+May 21 22:16:07 *	- channel the primary venue for support requests is via private message to
+May 21 22:16:07 *	- a member of the volunteer staff team.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:16:07 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:16:07 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:16:07 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:16:07 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:16:07 *	- global notices.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:16:07 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:16:07 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:16:07 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:16:07 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:16:07 *	- network going for close to two decades.
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:16:07 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:16:07 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:16:07 *	- sponsor@freenode.live
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	- Thank you for using freenode!
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	-  
+May 21 22:16:07 *	End of /MOTD command.
+May 21 22:16:07 *	Pixiys sets mode +Z Pixiys
+May 21 22:16:07 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 22:19:12 2018
+
+May 21 22:19:12 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:19:12 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 21 22:19:12 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 21 22:19:12 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:19:12 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:19:12 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 21 22:19:12 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 21 22:19:12 *	There are 118 users and 85995 invisible on 34 servers
+May 21 22:19:12 *	31 :IRC Operators online
+May 21 22:19:12 *	24 :unknown connection(s)
+May 21 22:19:12 *	52670 :channels formed
+May 21 22:19:12 *	I have 2601 clients and 1 servers
+May 21 22:19:12 *	2601 3120 :Current local users 2601, max 3120
+May 21 22:19:12 *	86113 90947 :Current global users 86113, max 90947
+May 21 22:19:12 *	Highest connection count: 3121 (3120 clients) (24973 connections received)
+May 21 22:19:12 *	- card.freenode.net Message of the Day - 
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 21 22:19:12 *	- Team Cymru (http://www.team-cymru.org).
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 21 22:19:12 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 21 22:19:12 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 21 22:19:12 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 21 22:19:12 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 21 22:19:12 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- Welcome to freenode - supporting the free and open source
+May 21 22:19:12 *	- software communities since 1998.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- By connecting to freenode you indicate that you have read and
+May 21 22:19:12 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:19:12 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:19:12 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:19:12 *	- situation within a reasonable period of time, and we may request further
+May 21 22:19:12 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:19:12 *	- Group Contacts representing an on-topic group.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- freenode runs an open proxy scanner.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:19:12 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:19:12 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:19:12 *	- provides assistance via private message, and while we have a network
+May 21 22:19:12 *	- channel the primary venue for support requests is via private message to
+May 21 22:19:12 *	- a member of the volunteer staff team.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:19:12 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:19:12 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:19:12 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:19:12 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:19:12 *	- global notices.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:19:12 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:19:12 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:19:12 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:19:12 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:19:12 *	- network going for close to two decades.
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:19:12 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:19:12 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:19:12 *	- sponsor@freenode.live
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	- Thank you for using freenode!
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	-  
+May 21 22:19:12 *	End of /MOTD command.
+May 21 22:19:12 *	Pixiys sets mode +Z Pixiys
+May 21 22:19:12 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 22:29:05 2018
+
+May 21 22:29:05 *	Welcome to the freenode Internet Relay Chat Network Gizmo_2234
+May 21 22:29:05 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 21 22:29:05 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 21 22:29:05 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:29:05 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:29:05 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 21 22:29:05 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 21 22:29:05 *	There are 118 users and 85941 invisible on 34 servers
+May 21 22:29:05 *	31 :IRC Operators online
+May 21 22:29:05 *	23 :unknown connection(s)
+May 21 22:29:05 *	52666 :channels formed
+May 21 22:29:05 *	I have 3004 clients and 1 servers
+May 21 22:29:05 *	3004 3648 :Current local users 3004, max 3648
+May 21 22:29:05 *	86059 90947 :Current global users 86059, max 90947
+May 21 22:29:05 *	Highest connection count: 3649 (3648 clients) (27102 connections received)
+May 21 22:29:05 *	- leguin.freenode.net Message of the Day - 
+May 21 22:29:05 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 21 22:29:05 *	- the Academic Computer Club at Umeå University for sponsoring
+May 21 22:29:05 *	- this server!
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 21 22:29:05 *	- Ursula Le Guin was an American author primarily known for
+May 21 22:29:05 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 21 22:29:05 *	- and Nebula awards, and was best known for her Earthsea
+May 21 22:29:05 *	- and Hainish series.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- Welcome to freenode - supporting the free and open source
+May 21 22:29:05 *	- software communities since 1998.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- By connecting to freenode you indicate that you have read and
+May 21 22:29:05 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:29:05 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:29:05 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:29:05 *	- situation within a reasonable period of time, and we may request further
+May 21 22:29:05 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:29:05 *	- Group Contacts representing an on-topic group.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- freenode runs an open proxy scanner.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:29:05 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:29:05 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:29:05 *	- provides assistance via private message, and while we have a network
+May 21 22:29:05 *	- channel the primary venue for support requests is via private message to
+May 21 22:29:05 *	- a member of the volunteer staff team.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:29:05 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:29:05 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:29:05 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:29:05 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:29:05 *	- global notices.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:29:05 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:29:05 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:29:05 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:29:05 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:29:05 *	- network going for close to two decades.
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:29:05 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:29:05 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:29:05 *	- sponsor@freenode.live
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	- Thank you for using freenode!
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	-  
+May 21 22:29:05 *	End of /MOTD command.
+May 21 22:29:05 *	Gizmo_2234 sets mode +Z Gizmo_2234
+May 21 22:29:05 *	Gizmo_2234 sets mode +i Gizmo_2234
+May 21 22:32:18 *	No ping reply for 90 seconds, disconnecting.
+May 21 22:32:18 *	Disconnected ().
+May 21 22:32:28 *	Looking up irc.freenode.net
+May 21 22:32:28 *	Unknown host. Maybe you misspelled it?
+May 21 22:32:38 Cycling to next server in freenode...
+May 21 22:32:38 *	Disconnected ().
+May 21 22:32:38 *	Looking up chat.freenode.net
+May 21 22:32:38 *	Unknown host. Maybe you misspelled it?
+May 21 22:32:48 Cycling to next server in freenode...
+May 21 22:32:48 *	Disconnected ().
+May 21 22:32:48 *	Looking up irc.freenode.net
+May 21 22:32:48 *	Connecting to chat.freenode.net (38.229.70.22) port 6697...
+May 21 22:32:49 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 22:32:49 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 22:32:49 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 22:32:49 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 22:32:49 *	* Subject: /CN=card.freenode.net
+May 21 22:32:49 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 22:32:49 *	* Certification info:
+May 21 22:32:49 *	  Subject:
+May 21 22:32:49 *	    CN=card.freenode.net
+May 21 22:32:49 *	  Issuer:
+May 21 22:32:49 *	    C=US
+May 21 22:32:49 *	    O=Let's Encrypt
+May 21 22:32:49 *	    CN=Let's Encrypt Authority X3
+May 21 22:32:49 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 21 22:32:49 *	  Sign algorithm sha256WithRSAEncryption
+May 21 22:32:49 *	  Valid since Apr 30 05:01:00 2018 GM to Jul 29 05:01:00 2018 GM
+May 21 22:32:49 *	* Cipher info:
+May 21 22:32:49 *	  Version: TLSv1.2, cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 21 22:32:49 *	Connected. Now logging in...
+May 21 22:32:49 *	*** Looking up your hostname...
+May 21 22:32:49 *	*** Checking Ident
+May 21 22:32:49 *	*** Found your hostname
+May 21 22:32:56 *	*** No Ident response
+May 21 22:32:56 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 21 22:32:56 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 21 22:32:56 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Mon May 21 22:32:56 2018
+
+**** BEGIN LOGGING AT Mon May 21 22:32:56 2018
+
+May 21 22:32:56 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:32:56 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 21 22:32:56 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 21 22:32:56 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:32:56 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:32:56 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 21 22:32:56 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 21 22:32:56 *	There are 118 users and 85934 invisible on 34 servers
+May 21 22:32:56 *	31 :IRC Operators online
+May 21 22:32:56 *	32 :unknown connection(s)
+May 21 22:32:56 *	52663 :channels formed
+May 21 22:32:56 *	I have 2596 clients and 1 servers
+May 21 22:32:56 *	2596 3120 :Current local users 2596, max 3120
+May 21 22:32:56 *	86052 90947 :Current global users 86052, max 90947
+May 21 22:32:56 *	Highest connection count: 3121 (3120 clients) (25107 connections received)
+May 21 22:32:56 *	- card.freenode.net Message of the Day - 
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 21 22:32:56 *	- Team Cymru (http://www.team-cymru.org).
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 21 22:32:56 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 21 22:32:56 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 21 22:32:56 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 21 22:32:56 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 21 22:32:56 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- Welcome to freenode - supporting the free and open source
+May 21 22:32:56 *	- software communities since 1998.
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- By connecting to freenode you indicate that you have read and
+May 21 22:32:56 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:32:56 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:32:56 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:32:56 *	- situation within a reasonable period of time, and we may request further
+May 21 22:32:56 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:32:56 *	- Group Contacts representing an on-topic group.
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- freenode runs an open proxy scanner.
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:32:56 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:32:56 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:32:56 *	- provides assistance via private message, and while we have a network
+May 21 22:32:56 *	- channel the primary venue for support requests is via private message to
+May 21 22:32:56 *	- a member of the volunteer staff team.
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:32:56 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:32:56 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:32:56 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:32:56 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:32:56 *	- global notices.
+May 21 22:32:56 *	-  
+May 21 22:32:56 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:32:57 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:32:57 *	-  
+May 21 22:32:57 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:32:57 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:32:57 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:32:57 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:32:57 *	-  
+May 21 22:32:57 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:32:57 *	- network going for close to two decades.
+May 21 22:32:57 *	-  
+May 21 22:32:57 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:32:57 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:32:57 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:32:57 *	- sponsor@freenode.live
+May 21 22:32:57 *	-  
+May 21 22:32:57 *	- Thank you for using freenode!
+May 21 22:32:57 *	-  
+May 21 22:32:57 *	-  
+May 21 22:32:57 *	End of /MOTD command.
+May 21 22:32:57 *	Pixiys sets mode +Z Pixiys
+May 21 22:32:57 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 22:38:06 2018
+
+May 21 22:38:07 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:38:07 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 21 22:38:07 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 21 22:38:07 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:38:07 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:38:07 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 21 22:38:07 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 21 22:38:07 *	There are 118 users and 85944 invisible on 34 servers
+May 21 22:38:07 *	31 :IRC Operators online
+May 21 22:38:07 *	27 :unknown connection(s)
+May 21 22:38:07 *	52665 :channels formed
+May 21 22:38:07 *	I have 2603 clients and 1 servers
+May 21 22:38:07 *	2603 3120 :Current local users 2603, max 3120
+May 21 22:38:07 *	86062 90947 :Current global users 86062, max 90947
+May 21 22:38:07 *	Highest connection count: 3121 (3120 clients) (25151 connections received)
+May 21 22:38:07 *	- card.freenode.net Message of the Day - 
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 21 22:38:07 *	- Team Cymru (http://www.team-cymru.org).
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 21 22:38:07 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 21 22:38:07 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 21 22:38:07 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 21 22:38:07 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 21 22:38:07 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- Welcome to freenode - supporting the free and open source
+May 21 22:38:07 *	- software communities since 1998.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- By connecting to freenode you indicate that you have read and
+May 21 22:38:07 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:38:07 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:38:07 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:38:07 *	- situation within a reasonable period of time, and we may request further
+May 21 22:38:07 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:38:07 *	- Group Contacts representing an on-topic group.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- freenode runs an open proxy scanner.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:38:07 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:38:07 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:38:07 *	- provides assistance via private message, and while we have a network
+May 21 22:38:07 *	- channel the primary venue for support requests is via private message to
+May 21 22:38:07 *	- a member of the volunteer staff team.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:38:07 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:38:07 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:38:07 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:38:07 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:38:07 *	- global notices.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:38:07 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:38:07 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:38:07 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:38:07 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:38:07 *	- network going for close to two decades.
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:38:07 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:38:07 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:38:07 *	- sponsor@freenode.live
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	- Thank you for using freenode!
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	-  
+May 21 22:38:07 *	End of /MOTD command.
+May 21 22:38:07 *	Pixiys sets mode +Z Pixiys
+May 21 22:38:07 *	Pixiys sets mode +i Pixiys
+May 21 22:38:28 *	No ping reply for 183 seconds, disconnecting.
+May 21 22:38:28 *	Disconnected ().
+May 21 22:38:38 *	Looking up chat.freenode.net
+May 21 22:38:39 *	Connecting to chat.freenode.net (38.229.70.22) port 6697...
+May 21 22:38:39 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 22:38:39 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 22:38:39 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 22:38:39 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 22:38:39 *	* Subject: /CN=card.freenode.net
+May 21 22:38:39 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 22:38:40 *	* Certification info:
+May 21 22:38:40 *	  Subject:
+May 21 22:38:40 *	    CN=card.freenode.net
+May 21 22:38:40 *	  Issuer:
+May 21 22:38:40 *	    C=US
+May 21 22:38:40 *	    O=Let's Encrypt
+May 21 22:38:40 *	    CN=Let's Encrypt Authority X3
+May 21 22:38:40 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 21 22:38:40 *	  Sign algorithm sha256WithRSAEncryption
+May 21 22:38:40 *	  Valid since Apr 30 05:01:00 2018 GM to Jul 29 05:01:00 2018 GM
+May 21 22:38:40 *	* Cipher info:
+May 21 22:38:40 *	  Version: TLSv1.2, cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 21 22:38:40 *	Connected. Now logging in...
+May 21 22:38:40 *	*** Looking up your hostname...
+May 21 22:38:40 *	*** Checking Ident
+May 21 22:38:40 *	*** Found your hostname
+May 21 22:38:46 *	*** No Ident response
+May 21 22:38:46 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 21 22:38:46 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 21 22:38:46 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Mon May 21 22:38:46 2018
+
+**** BEGIN LOGGING AT Mon May 21 22:38:46 2018
+
+May 21 22:38:46 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:38:46 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.7
+May 21 22:38:46 *	This server was created Sat May 19 2018 at 17:57:24 UTC
+May 21 22:38:46 *	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:38:46 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:38:46 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 21 22:38:46 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 21 22:38:46 *	There are 118 users and 85944 invisible on 34 servers
+May 21 22:38:46 *	31 :IRC Operators online
+May 21 22:38:46 *	21 :unknown connection(s)
+May 21 22:38:46 *	52664 :channels formed
+May 21 22:38:46 *	I have 2605 clients and 1 servers
+May 21 22:38:46 *	2605 3120 :Current local users 2605, max 3120
+May 21 22:38:46 *	86062 90947 :Current global users 86062, max 90947
+May 21 22:38:46 *	Highest connection count: 3121 (3120 clients) (25158 connections received)
+May 21 22:38:46 *	- card.freenode.net Message of the Day - 
+May 21 22:38:46 *	-  
+May 21 22:38:46 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 21 22:38:46 *	- Team Cymru (http://www.team-cymru.org).
+May 21 22:38:46 *	-  
+May 21 22:38:46 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 21 22:38:46 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 21 22:38:46 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 21 22:38:46 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 21 22:38:46 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 21 22:38:46 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 21 22:38:46 *	-  
+May 21 22:38:46 *	-  
+May 21 22:38:46 *	- Welcome to freenode - supporting the free and open source
+May 21 22:38:46 *	- software communities since 1998.
+May 21 22:38:46 *	-  
+May 21 22:38:46 *	- By connecting to freenode you indicate that you have read and
+May 21 22:38:47 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:38:47 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:38:47 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:38:47 *	- situation within a reasonable period of time, and we may request further
+May 21 22:38:47 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:38:47 *	- Group Contacts representing an on-topic group.
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- freenode runs an open proxy scanner.
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:38:47 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:38:47 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:38:47 *	- provides assistance via private message, and while we have a network
+May 21 22:38:47 *	- channel the primary venue for support requests is via private message to
+May 21 22:38:47 *	- a member of the volunteer staff team.
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:38:47 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:38:47 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:38:47 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:38:47 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:38:47 *	- global notices.
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:38:47 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:38:47 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:38:47 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:38:47 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:38:47 *	- network going for close to two decades.
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:38:47 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:38:47 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:38:47 *	- sponsor@freenode.live
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	- Thank you for using freenode!
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	-  
+May 21 22:38:47 *	End of /MOTD command.
+May 21 22:38:47 *	Pixiys sets mode +Z Pixiys
+May 21 22:38:47 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 22:48:56 2018
+
+May 21 22:48:56 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:48:56 *	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.4
+May 21 22:48:56 *	This server was created Sat Jan 7 2017 at 12:04:42 EST
+May 21 22:48:56 *	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:48:56 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:48:56 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 21 22:48:56 *	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+May 21 22:48:56 *	There are 118 users and 85872 invisible on 34 servers
+May 21 22:48:56 *	31 :IRC Operators online
+May 21 22:48:56 *	26 :unknown connection(s)
+May 21 22:48:56 *	52661 :channels formed
+May 21 22:48:56 *	I have 3916 clients and 1 servers
+May 21 22:48:56 *	3916 6943 :Current local users 3916, max 6943
+May 21 22:48:56 *	85990 97718 :Current global users 85990, max 97718
+May 21 22:48:56 *	Highest connection count: 6944 (6943 clients) (5892744 connections received)
+May 21 22:48:56 *	- orwell.freenode.net Message of the Day - 
+May 21 22:48:56 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+May 21 22:48:56 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 21 22:48:56 *	- this server!
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+May 21 22:48:56 *	- moved him to England when he was one year old, and it
+May 21 22:48:56 *	- was in England where he was educated and spent most of
+May 21 22:48:56 *	- his life.  Orwell is perhaps best known for his novels
+May 21 22:48:56 *	- Nineteen Eighty-Four and Animal Farm.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- Welcome to freenode - supporting the free and open source
+May 21 22:48:56 *	- software communities since 1998.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- By connecting to freenode you indicate that you have read and
+May 21 22:48:56 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:48:56 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:48:56 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:48:56 *	- situation within a reasonable period of time, and we may request further
+May 21 22:48:56 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:48:56 *	- Group Contacts representing an on-topic group.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- freenode runs an open proxy scanner.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:48:56 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:48:56 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:48:56 *	- provides assistance via private message, and while we have a network
+May 21 22:48:56 *	- channel the primary venue for support requests is via private message to
+May 21 22:48:56 *	- a member of the volunteer staff team.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:48:56 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:48:56 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:48:56 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:48:56 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:48:56 *	- global notices.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:48:56 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:48:56 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:48:56 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:48:56 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:48:56 *	- network going for close to two decades.
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:48:56 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:48:56 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:48:56 *	- sponsor@freenode.live
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	- Thank you for using freenode!
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	-  
+May 21 22:48:56 *	End of /MOTD command.
+May 21 22:48:56 *	Pixiys sets mode +Z Pixiys
+May 21 22:48:56 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 22:52:49 2018
+
+May 21 22:52:49 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 22:52:49 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 21 22:52:49 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 21 22:52:49 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 22:52:49 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 22:52:49 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 21 22:52:49 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 21 22:52:49 *	There are 118 users and 85846 invisible on 34 servers
+May 21 22:52:49 *	31 :IRC Operators online
+May 21 22:52:49 *	27 :unknown connection(s)
+May 21 22:52:49 *	52660 :channels formed
+May 21 22:52:49 *	I have 3022 clients and 1 servers
+May 21 22:52:49 *	3022 3648 :Current local users 3022, max 3648
+May 21 22:52:49 *	85964 90947 :Current global users 85964, max 90947
+May 21 22:52:49 *	Highest connection count: 3649 (3648 clients) (27349 connections received)
+May 21 22:52:49 *	- leguin.freenode.net Message of the Day - 
+May 21 22:52:49 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 21 22:52:49 *	- the Academic Computer Club at Umeå University for sponsoring
+May 21 22:52:49 *	- this server!
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 21 22:52:49 *	- Ursula Le Guin was an American author primarily known for
+May 21 22:52:49 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 21 22:52:49 *	- and Nebula awards, and was best known for her Earthsea
+May 21 22:52:49 *	- and Hainish series.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- Welcome to freenode - supporting the free and open source
+May 21 22:52:49 *	- software communities since 1998.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- By connecting to freenode you indicate that you have read and
+May 21 22:52:49 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 22:52:49 *	- please notify a volunteer staff member via private message, or send us an
+May 21 22:52:49 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 22:52:49 *	- situation within a reasonable period of time, and we may request further
+May 21 22:52:49 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 22:52:49 *	- Group Contacts representing an on-topic group.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- freenode runs an open proxy scanner.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- If you are looking for assistance, you will be able to find a list of
+May 21 22:52:49 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 22:52:49 *	- message any of us at any time. Please note that freenode predominantly
+May 21 22:52:49 *	- provides assistance via private message, and while we have a network
+May 21 22:52:49 *	- channel the primary venue for support requests is via private message to
+May 21 22:52:49 *	- a member of the volunteer staff team.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 22:52:49 *	- the project, or the communities that we host. The majority of such notices
+May 21 22:52:49 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 22:52:49 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 22:52:49 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 22:52:49 *	- global notices.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 22:52:49 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- freenode organises an annual conference, and we would like to extend our
+May 21 22:52:49 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 22:52:49 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 22:52:49 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 22:52:49 *	- network going for close to two decades.
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 22:52:49 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 22:52:49 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 22:52:49 *	- sponsor@freenode.live
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	- Thank you for using freenode!
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	-  
+May 21 22:52:49 *	End of /MOTD command.
+May 21 22:52:49 *	Pixiys sets mode +Z Pixiys
+May 21 22:52:49 *	Pixiys sets mode +i Pixiys
+**** BEGIN LOGGING AT Mon May 21 23:00:05 2018
+
+May 21 23:00:05 *	Welcome to the freenode Internet Relay Chat Network Gizmo_2234
+May 21 23:00:05 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 21 23:00:05 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 21 23:00:05 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 23:00:05 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 23:00:05 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 21 23:00:05 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 21 23:00:05 *	There are 118 users and 85774 invisible on 34 servers
+May 21 23:00:05 *	31 :IRC Operators online
+May 21 23:00:05 *	28 :unknown connection(s)
+May 21 23:00:05 *	52633 :channels formed
+May 21 23:00:05 *	I have 3016 clients and 1 servers
+May 21 23:00:05 *	3016 3648 :Current local users 3016, max 3648
+May 21 23:00:05 *	85892 90947 :Current global users 85892, max 90947
+May 21 23:00:05 *	Highest connection count: 3649 (3648 clients) (27500 connections received)
+May 21 23:00:05 *	- leguin.freenode.net Message of the Day - 
+May 21 23:00:05 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 21 23:00:05 *	- the Academic Computer Club at Umeå University for sponsoring
+May 21 23:00:05 *	- this server!
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 21 23:00:05 *	- Ursula Le Guin was an American author primarily known for
+May 21 23:00:05 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 21 23:00:05 *	- and Nebula awards, and was best known for her Earthsea
+May 21 23:00:05 *	- and Hainish series.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- Welcome to freenode - supporting the free and open source
+May 21 23:00:05 *	- software communities since 1998.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- By connecting to freenode you indicate that you have read and
+May 21 23:00:05 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 23:00:05 *	- please notify a volunteer staff member via private message, or send us an
+May 21 23:00:05 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 23:00:05 *	- situation within a reasonable period of time, and we may request further
+May 21 23:00:05 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 23:00:05 *	- Group Contacts representing an on-topic group.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- freenode runs an open proxy scanner.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- If you are looking for assistance, you will be able to find a list of
+May 21 23:00:05 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 23:00:05 *	- message any of us at any time. Please note that freenode predominantly
+May 21 23:00:05 *	- provides assistance via private message, and while we have a network
+May 21 23:00:05 *	- channel the primary venue for support requests is via private message to
+May 21 23:00:05 *	- a member of the volunteer staff team.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 23:00:05 *	- the project, or the communities that we host. The majority of such notices
+May 21 23:00:05 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 23:00:05 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 23:00:05 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 23:00:05 *	- global notices.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 23:00:05 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- freenode organises an annual conference, and we would like to extend our
+May 21 23:00:05 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 23:00:05 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 23:00:05 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 23:00:05 *	- network going for close to two decades.
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 23:00:05 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 23:00:05 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 23:00:05 *	- sponsor@freenode.live
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	- Thank you for using freenode!
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	-  
+May 21 23:00:05 *	End of /MOTD command.
+May 21 23:00:05 *	Gizmo_2234 sets mode +Z Gizmo_2234
+May 21 23:00:05 *	Gizmo_2234 sets mode +i Gizmo_2234
+May 21 23:08:56 *	No ping reply for 538 seconds, disconnecting.
+May 21 23:08:56 *	Disconnected ().
+May 21 23:09:06 *	Looking up chat.freenode.net
+May 21 23:09:06 *	Connecting to chat.freenode.net (130.239.18.119) port 6697...
+May 21 23:09:07 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 23:09:07 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 23:09:07 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 23:09:07 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+May 21 23:09:07 *	* Subject: /CN=leguin.freenode.net
+May 21 23:09:07 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+May 21 23:09:08 *	* Certification info:
+May 21 23:09:08 *	  Subject:
+May 21 23:09:08 *	    CN=leguin.freenode.net
+May 21 23:09:08 *	  Issuer:
+May 21 23:09:08 *	    C=US
+May 21 23:09:08 *	    O=Let's Encrypt
+May 21 23:09:08 *	    CN=Let's Encrypt Authority X3
+May 21 23:09:08 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 21 23:09:08 *	  Sign algorithm sha256WithRSAEncryption
+May 21 23:09:08 *	  Valid since Apr  9 05:02:06 2018 GM to Jul  8 05:02:06 2018 GM
+May 21 23:09:08 *	* Cipher info:
+May 21 23:09:08 *	  Version: TLSv1.2, cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 21 23:09:08 *	Connected. Now logging in...
+May 21 23:09:08 *	*** Looking up your hostname...
+May 21 23:09:08 *	*** Checking Ident
+May 21 23:09:08 *	*** Found your hostname
+May 21 23:09:14 *	*** No Ident response
+May 21 23:09:14 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 21 23:09:14 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 21 23:09:14 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Mon May 21 23:09:14 2018
+
+**** BEGIN LOGGING AT Mon May 21 23:09:14 2018
+
+May 21 23:09:14 *	Welcome to the freenode Internet Relay Chat Network Gizmo_2234
+May 21 23:09:14 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 21 23:09:14 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 21 23:09:14 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 23:09:14 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 23:09:14 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 21 23:09:14 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 21 23:09:14 *	There are 118 users and 85770 invisible on 34 servers
+May 21 23:09:14 *	31 :IRC Operators online
+May 21 23:09:14 *	25 :unknown connection(s)
+May 21 23:09:14 *	52634 :channels formed
+May 21 23:09:14 *	I have 3010 clients and 1 servers
+May 21 23:09:14 *	3010 3648 :Current local users 3010, max 3648
+May 21 23:09:14 *	85888 90947 :Current global users 85888, max 90947
+May 21 23:09:14 *	Highest connection count: 3649 (3648 clients) (27505 connections received)
+May 21 23:09:14 *	- leguin.freenode.net Message of the Day - 
+May 21 23:09:14 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 21 23:09:14 *	- the Academic Computer Club at Umeå University for sponsoring
+May 21 23:09:14 *	- this server!
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 21 23:09:14 *	- Ursula Le Guin was an American author primarily known for
+May 21 23:09:14 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 21 23:09:14 *	- and Nebula awards, and was best known for her Earthsea
+May 21 23:09:14 *	- and Hainish series.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- Welcome to freenode - supporting the free and open source
+May 21 23:09:14 *	- software communities since 1998.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- By connecting to freenode you indicate that you have read and
+May 21 23:09:14 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 23:09:14 *	- please notify a volunteer staff member via private message, or send us an
+May 21 23:09:14 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 23:09:14 *	- situation within a reasonable period of time, and we may request further
+May 21 23:09:14 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 23:09:14 *	- Group Contacts representing an on-topic group.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- freenode runs an open proxy scanner.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- If you are looking for assistance, you will be able to find a list of
+May 21 23:09:14 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 23:09:14 *	- message any of us at any time. Please note that freenode predominantly
+May 21 23:09:14 *	- provides assistance via private message, and while we have a network
+May 21 23:09:14 *	- channel the primary venue for support requests is via private message to
+May 21 23:09:14 *	- a member of the volunteer staff team.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 23:09:14 *	- the project, or the communities that we host. The majority of such notices
+May 21 23:09:14 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 23:09:14 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 23:09:14 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 23:09:14 *	- global notices.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 23:09:14 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- freenode organises an annual conference, and we would like to extend our
+May 21 23:09:14 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 23:09:14 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 23:09:14 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 23:09:14 *	- network going for close to two decades.
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 23:09:14 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 23:09:14 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 23:09:14 *	- sponsor@freenode.live
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	- Thank you for using freenode!
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	-  
+May 21 23:09:14 *	End of /MOTD command.
+May 21 23:09:14 *	Gizmo_2234 sets mode +Z Gizmo_2234
+May 21 23:09:14 *	Gizmo_2234 sets mode +i Gizmo_2234
+May 21 23:23:05 Python interface unloaded
+May 21 23:23:07 Perl interface unloaded
+May 21 23:23:08 Checksum plugin unloaded
+May 21 23:23:08 FiSHLiM plugin unloaded
+May 21 23:23:08 Sysinfo plugin unloaded
+**** ENDING LOGGING AT Mon May 21 23:23:08 2018
+
+**** BEGIN LOGGING AT Mon May 21 23:34:59 2018
+
+May 21 23:34:59 *	Welcome to the freenode Internet Relay Chat Network Pixiys
+May 21 23:34:59 *	Your host is leguin.freenode.net[130.239.18.119/6697], running version ircd-seven-1.1.7
+May 21 23:34:59 *	This server was created Sun May 20 2018 at 18:37:46 UTC
+May 21 23:34:59 *	leguin.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 21 23:34:59 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 21 23:34:59 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE KNOCK :are supported by this server
+May 21 23:34:59 *	ETRACE SAFELIST ELIST=CTU WHOX :are supported by this server
+May 21 23:34:59 *	There are 118 users and 85714 invisible on 34 servers
+May 21 23:34:59 *	31 :IRC Operators online
+May 21 23:34:59 *	22 :unknown connection(s)
+May 21 23:34:59 *	52625 :channels formed
+May 21 23:34:59 *	I have 2987 clients and 1 servers
+May 21 23:34:59 *	2987 3648 :Current local users 2987, max 3648
+May 21 23:34:59 *	85832 90947 :Current global users 85832, max 90947
+May 21 23:34:59 *	Highest connection count: 3649 (3648 clients) (27708 connections received)
+May 21 23:34:59 *	- leguin.freenode.net Message of the Day - 
+May 21 23:34:59 *	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+May 21 23:34:59 *	- the Academic Computer Club at Umeå University for sponsoring
+May 21 23:34:59 *	- this server!
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- LE GUIN, URSULA K. (1929-2018) Born in Berkeley, California,
+May 21 23:34:59 *	- Ursula Le Guin was an American author primarily known for
+May 21 23:34:59 *	- her Science Fiction and Fantasy. She was awarded the Hugo
+May 21 23:34:59 *	- and Nebula awards, and was best known for her Earthsea
+May 21 23:34:59 *	- and Hainish series.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- Welcome to freenode - supporting the free and open source
+May 21 23:34:59 *	- software communities since 1998.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- By connecting to freenode you indicate that you have read and
+May 21 23:34:59 *	- accept our policies and guidelines as set out on https://freenode.net
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- In the event that you observe behaviour that contravenes our policies,
+May 21 23:34:59 *	- please notify a volunteer staff member via private message, or send us an
+May 21 23:34:59 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+May 21 23:34:59 *	- situation within a reasonable period of time, and we may request further
+May 21 23:34:59 *	- information or, as appropriate, involve other parties such as channel operators 
+May 21 23:34:59 *	- Group Contacts representing an on-topic group.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- freenode runs an open proxy scanner.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- If you are looking for assistance, you will be able to find a list of
+May 21 23:34:59 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+May 21 23:34:59 *	- message any of us at any time. Please note that freenode predominantly
+May 21 23:34:59 *	- provides assistance via private message, and while we have a network
+May 21 23:34:59 *	- channel the primary venue for support requests is via private message to
+May 21 23:34:59 *	- a member of the volunteer staff team.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- From time to time, volunteer staff may send server-wide notices relating to
+May 21 23:34:59 *	- the project, or the communities that we host. The majority of such notices
+May 21 23:34:59 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+May 21 23:34:59 *	- do not miss them. Important messages relating to the freenode project, including
+May 21 23:34:59 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+May 21 23:34:59 *	- global notices.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- Representing an on-topic project? Don't forget to register, more information
+May 21 23:34:59 *	- can be found on the https://freenode.net website under "Group Registration".
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- freenode organises an annual conference, and we would like to extend our
+May 21 23:34:59 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+May 21 23:34:59 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+May 21 23:34:59 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- Thank you also to our server sponsors for the sustained support in keeping the
+May 21 23:34:59 *	- network going for close to two decades.
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+May 21 23:34:59 *	- Proposals is live at https://freenode.live and open until July 31, 2018. If 
+May 21 23:34:59 *	- you are interested in sponsoring this event, please send an e-mail to
+May 21 23:34:59 *	- sponsor@freenode.live
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	- Thank you for using freenode!
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	-  
+May 21 23:34:59 *	End of /MOTD command.
+May 21 23:34:59 *	Pixiys sets mode +Z Pixiys
+May 21 23:34:59 *	Pixiys sets mode +i Pixiys

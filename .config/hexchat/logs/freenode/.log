@@ -1,0 +1,16 @@
+**** BEGIN LOGGING AT Sun May 20 17:24:53 2018
+
+May 20 17:24:53 *	Connecting to chat.freenode.net (38.229.70.22:6697)
+May 20 17:24:54 *	* Certification info:
+May 20 17:24:54 *	  Subject:
+May 20 17:24:54 *	    CN=card.freenode.net
+May 20 17:24:54 *	  Issuer:
+May 20 17:24:54 *	    C=US
+May 20 17:24:54 *	    O=Let's Encrypt
+May 20 17:24:54 *	    CN=Let's Encrypt Authority X3
+May 20 17:24:54 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 20 17:24:54 *	  Sign algorithm sha256WithRSAEncryption
+May 20 17:24:54 *	  Valid since Apr 30 05:01:00 2018 GM to Jul 29 05:01:00 2018 GM
+May 20 17:24:54 *	* Cipher info:
+May 20 17:24:54 *	  Version: TLSv1.2, cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 20 17:24:54 *	Connected. Now logging in.

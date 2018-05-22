@@ -1,0 +1,37 @@
+**** BEGIN LOGGING AT Sun May 20 17:24:53 2018
+
+May 20 17:24:53 *	Looking up chat.freenode.net
+**** BEGIN LOGGING AT Sun May 20 17:52:14 2018
+
+May 20 17:52:14 Python interface unloaded
+May 20 17:52:14 FiSHLiM plugin unloaded
+**** ENDING LOGGING AT Sun May 20 17:52:14 2018
+
+**** BEGIN LOGGING AT Mon May 21 22:28:57 2018
+
+May 21 22:28:57 *	Looking up irc.freenode.net
+May 21 22:28:58 *	Connecting to chat.freenode.net (130.239.18.119) port 6697...
+May 21 22:28:59 *	* Certification info:
+May 21 22:28:59 *	  Subject:
+May 21 22:28:59 *	    CN=leguin.freenode.net
+May 21 22:28:59 *	  Issuer:
+May 21 22:28:59 *	    C=US
+May 21 22:28:59 *	    O=Let's Encrypt
+May 21 22:28:59 *	    CN=Let's Encrypt Authority X3
+May 21 22:28:59 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 21 22:28:59 *	  Sign algorithm sha256WithRSAEncryption
+May 21 22:28:59 *	  Valid since Apr  9 05:02:06 2018 GM to Jul  8 05:02:06 2018 GM
+May 21 22:28:59 *	* Cipher info:
+May 21 22:28:59 *	  Version: TLSv1.2, cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 21 22:28:59 *	Connected. Now logging in...
+May 21 22:28:59 *	*** Looking up your hostname...
+May 21 22:28:59 *	*** Checking Ident
+May 21 22:28:59 *	*** Found your hostname
+May 21 22:29:04 *	*** No Ident response
+May 21 22:29:04 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 21 22:29:04 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 21 22:29:04 *	Pixiys already in use. Retrying with Gizmo...
+May 21 22:29:04 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+May 21 22:29:04 *	Gizmo already in use. Retrying with Gizmo_2234...
+**** ENDING LOGGING AT Mon May 21 22:29:05 2018
+
