@@ -1,19 +1,19 @@
-" File: z80_edit_functions.vim
+" File: ez80_edit_functions.vim
 " Author: Krusty/Benediction
-" Description:  This file contains useful functions to help z80 development
+" Description:  This file contains useful functions to help ez80 development
 " Last Modified: janvier 20, 2012
 
-if exists('did_z80_edit_functions') || &cp || version < 700
+if exists('did_ez80_edit_functions') || &cp || version < 700
 	finish
 endif
-let did_z80_edit_functions = 1
+let did_ez80_edit_functions = 1
 
-" Z80 assembler conversion {{{
+" EZ80 assembler conversion {{{
 
 " Split a line with several commands in several independent lines
 " (allow to easily convert files from one assembly language to another one)
 " Mainly written to convert sjamsplus source to vasm source
-function! Z80SplitInstructionsInSeveralLines() range
+function! EZ80SplitInstructionsInSeveralLines() range
 
     let lnum          = a:firstline
     let s:linecounter = 0
@@ -55,14 +55,14 @@ function! Z80SplitInstructionsInSeveralLines() range
     endwhile
 endfunction
 
-function! Z80WholeFileSplitInstructionsInSeveralLines()
-	exec "%call Z80SplitInstructionsInSeveralLines()"
+function! EZ80WholeFileSplitInstructionsInSeveralLines()
+	exec "%call EZ80SplitInstructionsInSeveralLines()"
 endfunction
 
 
 " Remove the comments in C format and replace them by ;
 " TODO debug: I think stars inside a line are considered as a comment
-function Z80TranslateCComments()
+function EZ80TranslateCComments()
 	" /**
 	try 
 		exec "%s/\\(\\s*\\)\\/\\*\\*/\\1 ;;/"
@@ -101,9 +101,9 @@ endfunction
 "
 "  TODO write the macro transformation function
 "  TODO protect macro arguments
-function! Z80Sjamsplus2vasm()
-	call Z80WholeFileSplitInstructionsInSeveralLines()
-	call Z80TranslateCComments()
+function! EZ80Sjamsplus2vasm()
+	call EZ80WholeFileSplitInstructionsInSeveralLines()
+	call EZ80TranslateCComments()
 
 	" TODO use a list to comment these things
 
